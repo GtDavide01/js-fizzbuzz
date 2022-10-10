@@ -4,4 +4,25 @@
     margin: 0;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background-color: #083b4c;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem 0;
+}
 
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+.blu{
+    background-color: blue;
+}
