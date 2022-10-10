@@ -6,7 +6,6 @@ console.log(listNumber);
 let stampa = "";
 //stampo in console i numeri da 1 a 100 
 for ( let i=1 ; i<= 100 ; i++){
-    
     //SE sono multipli di 3 e di 5 si chiameranno FizzBuzz 
     if (i%3===0 && i%5===0){
         stampa = "FizzBuzz"
@@ -26,7 +25,10 @@ for ( let i=1 ; i<= 100 ; i++){
         console.log(i);
     } 
     
-   
+    //creo variabile che contiene un elemento square 
+    const message = document.createElement("div");
+    message.innerHTML = stampa;
+    listNumber.append(message);
 
 }
 
