@@ -3,12 +3,11 @@ const listNumber = document.getElementById("listnumberfizzbuzz");
 console.log(listNumber);
 
 //varibaile che contiene il messaggio 
-let stampa = "";
+let stampa ;
 //stampo in console i numeri da 1 a 100 
 for ( let i=1 ; i<= 100 ; i++){
-     //creo variabile che contiene un elemento square 
+     //creo variabile che contiene un elemento div 
      const message = document.createElement("div");
-     message.innerHTML = stampa;
      listNumber.append(message);
     //SE sono multipli di 3 e di 5 si chiameranno FizzBuzz 
     if (i%3===0 && i%5===0){
@@ -35,7 +34,7 @@ for ( let i=1 ; i<= 100 ; i++){
         message.classList.add("square");
         message.classList.add("blu");
     } 
-    
+    message.innerHTML = stampa;
    
 
 }
