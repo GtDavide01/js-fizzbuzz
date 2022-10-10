@@ -3,26 +3,49 @@
     padding: 0;
     margin: 0;
 }
-
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
+/* common */
 body{
     background-color: #083b4c;
 }
+/* container principale */
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+/* h1 */
 h1{
     color: white;
     text-align: center;
     font-size: 4rem;
     margin: 2rem 0;
 }
+/* Contenitori secondari  */
 
 .square{
     width: 150px;
     height: 150px;
-    background-color: aqua;
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
 }
 .blu{
-    background-color: blue;
+    background-color: #1389b2;
+}
+.verde{
+    background-color: #0bd6a1;
+}
+.giallo{
+    background-color: #ffd166;
+}
+.rosso{
+    background-color: #f0466f;
+}   
+#listnumberfizzbuzz{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
